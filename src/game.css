@@ -1,0 +1,121 @@
+.Game {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back {
+  background-image: linear-gradient(to bottom right, #ffecd2 0%, #fcb69f 50%);
+  background-repeat: no-repeat;
+  border: 3px solid white;
+  border-radius: 30px;
+  height: 400px;
+  width: 250px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  overflow: hidden;
+}
+.mark {
+  margin-right: -20px;
+  height: 330px;
+  width: 210px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.note {
+  color: white;
+  position: fixed;
+  left:0;
+  right:0;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abovea {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8rem;
+}
+.above {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap:;
+  color: white;
+  font-size: 1.8rem;
+}
+.playerturn {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lasttitle {
+  position: fixed;
+  left: 0;
+  right:0;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color: white;
+}
+.lastwatch {
+  position: fixed;
+  left: 0;
+  right:0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EB8686;
+  font-size: 11rem;
+  margin-top: -120px;
+}
+.tim {
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  font-weight: 400;
+}
+.replay {
+  background-color: #EB8686;
+  position: fixed;
+  bottom: 100px;
+  left: 30px;
+  right: 30px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 1.4rem;
+}
+.redtim {
+  color: #d64242;
+}

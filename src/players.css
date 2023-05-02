@@ -1,0 +1,95 @@
+.counter {
+  transform: rotate(-45deg);
+  background-color: #EB8686;
+  width: 90px;
+  height: 90px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: fixed;
+  top: 250px;
+  left: 135px;
+}
+.confirm {
+  background-color: #EB8686;
+  position: fixed;
+  top: 420px;
+  left: 30px;
+  right: 30px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 1.4rem;
+}
+.number{
+  color: white;
+  font-size: 2.3rem;
+  position: fixed;
+  transform: rotate(45deg);
+  top: 25px;
+  right: 37px;
+}
+.number2 {
+  color: white;
+  font-size: 2.3rem;
+  position: fixed;
+  transform: rotate(45deg);
+  top: 23px;
+  right: 27px;
+}
+.sign1 {
+  color: white;
+  font-size: 2.3rem;
+  position: fixed;
+  transform: rotate(45deg);
+  top: 13px;
+  right: 25px;
+}
+.sign2 {
+  color: white;
+  font-size: 2.3rem;
+  position: fixed;
+  transform: rotate(45deg);
+  top: 5px;
+  right: 15px;
+}
+.increase {
+  transform: rotate(-45deg);
+  background-color: #EB8686;
+  width: 70px;
+  height: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  position: fixed;
+  top: 260px;
+  left: 260px;
+}
+.decrease {
+  transform: rotate(-45deg);
+  background-color: #EB8686;
+  width: 70px;
+  height: 70px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  position: fixed;
+  top: 260px;
+  left: 30px;
+}
+.specifyp {
+  font-size: 1.8rem;
+  position: fixed;
+  left: 30px;
+  top: 100px;
+  color: white;
+}
+.specifypa {
+  font-size: 1.8rem;
+  position: fixed;
+  right: 30px;
+  top: 100px;
+  color: white;
+}

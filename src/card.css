@@ -1,0 +1,21 @@
+.Card {
+  background-image: linear-gradient(to bottom right, #ffecd2 0%, #fcb69f 50%);
+  background-repeat: no-repeat;
+  border: 3px solid white;
+  border-radius: 30px;
+  height: 400px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  row-gap: 20px;
+  font-size: 2.2rem;
+}
+.cardicon {
+  font-size: 4.4rem;
+}
+.red {
+  color: #d64242;
+}

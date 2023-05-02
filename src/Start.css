@@ -1,0 +1,269 @@
+.square1, .square2, .square3, .square4, .square5{
+  transform: rotate(45deg);
+  background-color: #EB8686;
+  border-radius: 25px;
+}
+.square1 {
+  width: 90px;
+  height: 180px;
+  position: fixed;
+  top: 218px;
+  left: 41px;
+}
+.square2 {
+  width: 180px;
+  height: 90px;
+  position: fixed;
+  top: 200px;
+  left: 127px;
+}
+.square3 {
+  width: 90px;
+  height: 180px;
+  position: fixed;
+  top: 292px;
+  left: 229px;
+}
+.square4 {
+  width: 180px;
+  height: 90px;
+  position: fixed;
+  top: 401px;
+  left: 53px;
+}
+.square5 {
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
+  position: fixed;
+  top: 300px;
+  left: 135px;
+}
+.title {
+  color: white;
+  position: fixed;
+  font-size: 1.7rem;
+  top: 80px;
+  left: 50px;
+}
+.titlea {
+  color: white;
+  position: fixed;
+  font-size: 1.7rem;
+  top: 80px;
+  left: 115px;
+}
+.labels {
+  transform: rotate(-45deg);
+  color: white;
+  margin-top: 20px;
+  margin-right: 1px;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.labelsa {
+  transform: rotate(-45deg);
+  color: white;
+  margin-top: 13px;
+  margin-right: 8px;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: -1px;
+}
+.starta {
+  font-size: 1.4rem;
+  margin-top: -8px;
+}
+.general{
+  font-size: 1rem;
+  transform: rotate(-90deg);
+  color: white;
+}
+.general2 {
+  font-size: 1rem;
+  color: white;
+}
+.ppleN {
+  flex-direction: row;
+  margin-right: 0px;
+  margin-top: 30px;
+  column-gap: 5px;
+  position: fixed;
+  bottom: 125px;
+  left: 40px;
+  font-size: 1.5rem;
+}
+.ppleNa {
+  flex-direction: row;
+  margin-right: 0px;
+  margin-top: 10px;
+  column-gap: 5px;
+  position: fixed;
+  top: 120px;
+  left: 40px;
+  font-size: 1.5rem;
+}
+.pple {
+  position: fixed;
+  bottom: 45px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.pplea {
+  position: fixed;
+  top: 54px;
+  right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  width: 105px;
+}
+.ppleN2 {
+  flex-direction: row;
+  margin-right: 0px;
+  margin-top: 30px;
+  column-gap: 5px;
+  position: fixed;
+  bottom: 30px;
+  left: 135px;
+  font-size: 1.5rem;
+}
+.ppleN2a {
+  flex-direction: row;
+  margin-right: 0px;
+  margin-top: 30px;
+  column-gap: 5px;
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  font-size: 1.5rem;
+}
+.pple2 {
+  position: fixed;
+  bottom: 27px;
+  left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.pple2a {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.ppleN3 {
+  flex-direction: row;
+  margin-right: 0px;
+  margin-top: 30px;
+  column-gap: 5px;
+  position: fixed;
+  bottom: 125px;
+  left: 40px;
+  font-size: 1.5rem;
+}
+.pple3 {
+  position: fixed;
+  bottom: 45px;
+  left: -3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.ppleN3a {
+  flex-direction: row;
+  margin-right: 0px;
+  margin-top: 30px;
+  column-gap: 5px;
+  position: fixed;
+  bottom: 25px;
+  left: 40px;
+  font-size: 1.5rem;
+}
+.pple3a {
+  position: fixed;
+  top: 45px;
+  left: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.ppleN4 {
+  flex-direction: row;
+  margin-right: 0px;
+  margin-top: 30px;
+  column-gap: 5px;
+  position: fixed;
+  bottom: 30px;
+  left: 115px;
+  font-size: 1.5rem;
+}
+.pple4 {
+  position: fixed;
+  bottom: 27px;
+  left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.ppleN4a {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-top: 30px;
+  column-gap: 5px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1.5rem;
+}
+.pple4a {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.pplei {
+  font-size: 1.8rem;
+}
+.ppleia {
+  font-size: 1.5rem;
+}
+.ppleia2 {
+  font-size: 1.8rem;
+  margin-bottom: -9px;
+  margin-left: 5px;
+}
+.lang {
+  position: fixed;
+  bottom: -580px;
+  left: 160px;
+}
